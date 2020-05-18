@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0px;
+}
+.hero{
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/sca.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 50vh;
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all 2s ease;
+    margin: 0px;
+    justify-self: stretch;
+}
+.nav-el{
+    list-style: none;
+}
+.nav-el :hover{
+    background-color: white;
+    color: black;
+}
+.nav-item{
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.nav-container{
+    display: flex;
+    transition: all 3s ease;
+}
+
+.fluid-img{
+    padding: 10px;
+    width: 80%;
+}
+
+.services{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    transition: all 2s;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-item{
+    padding: 2px;
+    display: flex;
+    justify-content: space-around;
+}
+.box-item :hover{
+    transition-duration: 1s;
+    box-shadow: 10px 10px 10px rgb(177, 169, 169);
+    /* background-color: rgba(5, 93, 255, 0.466); */
+    /* transform: rotateY(45deg); */
+}
+
+.title-text{
+    /* border-bottom: 2px solid purple; */
+    text-align: center; 
+    color: rgb(10, 93, 187); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
